@@ -52,9 +52,7 @@ Python 3.8+ is required to run the application.
 Ensure that you have pip installed to handle dependencies.
 Steps
 ### 2.Clone the repository:
-git clone https://github.com/yourusername/yourproject.git
-
-cd yourproject
+git clone https://github.com/PFA24-Internship-Project/3D_Obj_classification_with_CapsNet
 
 ### 3.Install the required dependencies:
 pip install -r requirements.txt
