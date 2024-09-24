@@ -58,16 +58,17 @@ git clone https://github.com/PFA24-Internship-Project/3D_Obj_classification_with
 ### 3.Create a virtual enviromrnts:
     ```bash
 python -m venv myvenv
-    ```
+    ``` 
     
 ### 4
     ```bash
 cd code
-
+    ```
 
 ### 3.Install the required dependencies:
     ```bash
 pip install -r requirements.txt
+    ```
 
 ### install the model Weight (weights-47.weights.h5)
 [![Model Weight](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1u9EOpJ6-FmmAHKbMYMqR_gtGmcFWhLxB)
@@ -84,10 +85,10 @@ streamlit run code/APP_Web/Accueil.py
 - **F1-Score**: accuracy [94%]
 
 **Authors:**  
-- Olaia Mechal [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/olaia-mechal-82509b261/)
-- Souhaila El Kadaoui [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://linkedin.com/in/souhaila-elkadaoui-0b0397236/) 
--  Hamza Kholti [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/hamza-kholti-075288209/) 
-- Khadija Elabbioui [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/khadija-elabbioui-308499216/)
+- Olaia Mechal [LinkedIn](linkedin.com/in/olaia-mechal-82509b261/)
+- Souhaila El Kadaoui [LinkedIn](http://linkedin.com/in/souhaila-elkadaoui-0b0397236/) 
+-  Hamza Kholti [LinkedIn](www.linkedin.com/in/hamza-kholti-075288209/) 
+- Khadija Elabbioui [LinkedIn](linkedin.com/in/khadija-elabbioui-308499216/)
 
 ## Acknowledgements
 This project was supported by **3D Smart Factory Society**, whose resources and expertise have significantly contributed to the successful completion of this work. We extend my sincere gratitude for their invaluable support.
