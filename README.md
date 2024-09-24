@@ -58,7 +58,7 @@ git clone https://github.com/PFA24-Internship-Project/3D_Obj_classification_with
 pip install -r requirements.txt
 
 ### 4.Prepare the model weights:
-Make sure to  install  the model weights (weights-47.weights.h5)  from [link](https://drive.google.com/drive/folders/1u9EOpJ6-FmmAHKbMYMqR_gtGmcFWhLxB?usp=drive_link) and verify that  is in the correct path (Model/ directory). 
+Make sure to  install  the model weights (weights-47.weights.h5)  from [link](https://drive.google.com/drive/folders/1u9EOpJ6-FmmAHKbMYMqR_gtGmcFWhLxB?usp=drive_link) and verify that  is in the correct path (Model/ weights-47.weights.h5). 
 
 
 ### 5.Set up the Streamlit configuration:
