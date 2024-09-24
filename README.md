@@ -60,9 +60,8 @@ cd yourproject
 pip install -r requirements.txt
 
 ### 4.Prepare the model weights:
-Make sure the model weights (weights-47.weights.h5) are in the correct path (Model/ directory). If you need to re-train the model or use different weights, you can update or generate new weights by running the training script:
+Make sure to unzip  the model weights (weights-47.weights.h5) and verify that  is in the correct path (Model/ directory). 
 
-python Model/TrainingAndTest.py
 
 ### 5.Set up the Streamlit configuration:
 Check the .streamlit/config.toml file for any necessary changes regarding the Streamlit server configuration.
