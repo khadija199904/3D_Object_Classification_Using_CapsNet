@@ -28,8 +28,8 @@ IntrA includes:
 - **116 manually annotated aneurysm segments**, aimed at improving segmentation models used in preoperative planning, such as identifying the neck of an aneurysm for clipping operations.
 
 This dataset offers opportunities for exploring point-based and mesh-based deep learning models in medical image analysis, promoting the accurate diagnosis and surgical planning for intracranial aneurysms.
+[![GitHub](https://img.shields.io/badge/GitHub-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/intra3d2019/IntrA/blob/master/README.md)
 
-[![Dataset Link](https://en.wikipedia.org/wiki/File:GitHub_Invertocat_Logo.svg)](https://github.com/intra3d2019/IntrA/blob/master/README.md)
 
 ## Methodology
 We utilized the IntrA dataset with 3D models of intracranial aneurysms, converting them into voxels for efficient processing. A hybrid VGG-CapsNet model was employed, combining VGG’s feature extraction with CapsNet’s dynamic routing to classify aneurysm conditions.
@@ -70,7 +70,8 @@ cd code
 pip install -r requirements.txt
 
 ### install the model Weight (weights-47.weights.h5)
-[![Model Weight](https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg)](https://drive.google.com/drive/folders/1u9EOpJ6-FmmAHKbMYMqR_gtGmcFWhLxB)
+[![Model Weight](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1u9EOpJ6-FmmAHKbMYMqR_gtGmcFWhLxB)
+
 
 ### 6.Run the application:
     ```bash
