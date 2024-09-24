@@ -1,4 +1,3 @@
-
 #  3D Object Classification Using Capsule Networks
  ## Project Overview
 This project explores the capacity of **Capsule Networks (CapsNet)** to classify aneurysms and vessel conditions from 3D medical data. The aim is to assess how well CapsNet captures spatial hierarchies and complex structures in medical imaging, offering potentially better performance compared to traditional CNNs for these specific tasks.
@@ -30,7 +29,7 @@ IntrA includes:
 
 This dataset offers opportunities for exploring point-based and mesh-based deep learning models in medical image analysis, promoting the accurate diagnosis and surgical planning for intracranial aneurysms.
 
-[Dataset Link](https://github.com/intra3d2019/IntrA/blob/master/README.md)
+[![Dataset Link](https://img.shields.io/badge/pycaw-Documentation-FF0000?style=for-the-badge&logo=python&logoColor=white)]()
 
 ## Methodology
 We utilized the IntrA dataset with 3D models of intracranial aneurysms, converting them into voxels for efficient processing. A hybrid VGG-CapsNet model was employed, combining VGG’s feature extraction with CapsNet’s dynamic routing to classify aneurysm conditions.
@@ -52,36 +51,45 @@ Python 3.8+ is required to run the application.
 Ensure that you have pip installed to handle dependencies.
 Steps
 ### 2.Clone the repository:
-git clone https://github.com/PFA24-Internship-Project/3D_Obj_classification_with_CapsNet
+    ```bash
+git clone https://github.com/PFA24-Internship-Project/3D_Obj_classification_with_CapsNet.git
+    ```
+
+### 3.Create a virtual enviromrnts:
+    ```bash
+python -m venv myvenv
+    ```
+    
+### 4
+    ```bash
+cd code
+
 
 ### 3.Install the required dependencies:
+    ```bash
 pip install -r requirements.txt
 
-### 4.Prepare the model weights:
-Make sure to  install  the model weights (weights-47.weights.h5)  from [link](https://drive.google.com/drive/folders/1u9EOpJ6-FmmAHKbMYMqR_gtGmcFWhLxB?usp=drive_link) and verify that  is in the correct path (Model/ weights-47.weights.h5). 
-
-
-### 5.Set up the Streamlit configuration:
-Check the .streamlit/config.toml file for any necessary changes regarding the Streamlit server configuration.
+### install the model Weight (weights-47.weights.h5)
+[![Model Weight](https://img.shields.io/badge/pycaw-Documentation-FF0000?style=for-the-badge&logo=python&logoColor=white)](https://drive.google.com/drive/folders/1u9EOpJ6-FmmAHKbMYMqR_gtGmcFWhLxB)
 
 ### 6.Run the application:
+    ```bash
 streamlit run code/APP_Web/Accueil.py
+    ```
 
 ## Results
-- **Vessel %**: [95%]  
-- **Aneurysm %**: [93%]   
-- **F1-Score**: [94%]
+- **Vessel %**: accuracy [95%] 
+- **Aneurysm %**: accuracy [93%]   
+- **F1-Score**: accuracy [94%]
 
 **Authors:**  
-- Olaia Mechal  
-- Souhaila El Kadaoui  
--  Hamza Kholti 
-- Khadija Elabbioui 
+- Olaia Mechal [![Olaia Mechal](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/olaia-mechal-82509b261)
+- Souhaila El Kadaoui [![Souhaila El Kadaoui](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://linkedin.com/in/souhaila-elkadaoui-0b0397236) 
+-  Hamza Kholti [![Hamza Kholti](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/hamza-kholti-075288209) 
+- Khadija Elabbioui [![Khadija Elabbioui](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/khadija-elabbioui-308499216)
 
 ## Acknowledgements
-
 This project was supported by **3D Smart Factory Society**, whose resources and expertise have significantly contributed to the successful completion of this work. We extend my sincere gratitude for their invaluable support.
-
 
 
 
