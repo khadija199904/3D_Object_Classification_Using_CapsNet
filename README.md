@@ -29,7 +29,7 @@ IntrA includes:
 
 This dataset offers opportunities for exploring point-based and mesh-based deep learning models in medical image analysis, promoting the accurate diagnosis and surgical planning for intracranial aneurysms.
 
-[![Dataset Link](https://img.shields.io/badge/pycaw-Documentation-FF0000?style=for-the-badge&logo=python&logoColor=white)]()
+[![Dataset Link](https://en.wikipedia.org/wiki/File:GitHub_Invertocat_Logo.svg)](https://github.com/intra3d2019/IntrA/blob/master/README.md)
 
 ## Methodology
 We utilized the IntrA dataset with 3D models of intracranial aneurysms, converting them into voxels for efficient processing. A hybrid VGG-CapsNet model was employed, combining VGG’s feature extraction with CapsNet’s dynamic routing to classify aneurysm conditions.
@@ -70,7 +70,7 @@ cd code
 pip install -r requirements.txt
 
 ### install the model Weight (weights-47.weights.h5)
-[![Model Weight](https://img.shields.io/badge/pycaw-Documentation-FF0000?style=for-the-badge&logo=python&logoColor=white)](https://drive.google.com/drive/folders/1u9EOpJ6-FmmAHKbMYMqR_gtGmcFWhLxB)
+[![Model Weight](https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg)](https://drive.google.com/drive/folders/1u9EOpJ6-FmmAHKbMYMqR_gtGmcFWhLxB)
 
 ### 6.Run the application:
     ```bash
@@ -83,10 +83,10 @@ streamlit run code/APP_Web/Accueil.py
 - **F1-Score**: accuracy [94%]
 
 **Authors:**  
-- Olaia Mechal [![Olaia Mechal](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/olaia-mechal-82509b261)
-- Souhaila El Kadaoui [![Souhaila El Kadaoui](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://linkedin.com/in/souhaila-elkadaoui-0b0397236) 
--  Hamza Kholti [![Hamza Kholti](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/hamza-kholti-075288209) 
-- Khadija Elabbioui [![Khadija Elabbioui](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/khadija-elabbioui-308499216)
+- Olaia Mechal [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/olaia-mechal-82509b261/)
+- Souhaila El Kadaoui [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://linkedin.com/in/souhaila-elkadaoui-0b0397236/) 
+-  Hamza Kholti [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/hamza-kholti-075288209/) 
+- Khadija Elabbioui [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](linkedin.com/in/khadija-elabbioui-308499216/)
 
 ## Acknowledgements
 This project was supported by **3D Smart Factory Society**, whose resources and expertise have significantly contributed to the successful completion of this work. We extend my sincere gratitude for their invaluable support.
