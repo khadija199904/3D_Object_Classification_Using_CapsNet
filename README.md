@@ -52,7 +52,7 @@ Ensure that you have pip installed to handle dependencies.
 Steps
 ### 2. Clone the repository:
 ```bash
-    git clone https://github.com/PFA24-Internship-Project/3D_Obj_classification_with_CapsNet.git
+    git clone https://github.com/PFA24-Internship-Project/3D_Object_Classification_Using_CapsNet.git
 ```
 
 ### 3. Create a virtual environment:
